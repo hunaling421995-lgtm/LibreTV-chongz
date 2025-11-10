@@ -3,11 +3,8 @@ const CUSTOMER_SITES = {
         api: 'https://www.qiqidys.com/api.php/provide/vod',
         name: '七七资源',
     }
-};
-
-     api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
         name: '电影天堂资源',
-        detail: 'http://caiji.dyttzyapi.com', 
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
@@ -101,6 +98,8 @@ const CUSTOMER_SITES = {
         name: '空内容测试源',
         adult: true
     }
+
+};
 
 // 调用全局方法合并
 if (window.extendAPISites) {
